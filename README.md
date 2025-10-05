@@ -2,7 +2,7 @@
 
 ![Demo](assets/ezgif.com-optimize.gif)
 
-A full-stack application built for the **NASA Space Apps Challenge in Kochi**.  
+A full-stack application built for the **NASA Space Apps Challenge in Kanjirapally**.  
 It provides historical climate analysis, trend visualization, and AI-powered summaries for any location selected on a map.
 
 ---
