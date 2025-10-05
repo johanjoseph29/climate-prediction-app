@@ -1,16 +1,33 @@
-# lunar_forge
+# Climate Prediction App
 
-A new Flutter project.
+A full-stack application built for the NASA Space Apps Challenge in Kochi. It provides historical climate analysis, trend visualization, and AI-powered summaries for any location selected on a map.
 
-## Getting Started
+-  **Historical Data**: Displays key metrics like average high temperature and chance of rain.
+-  **20-Year Trend Chart**: Visualizes the historical temperature trend for the selected week.
+-  **AI Summary**: Uses the Google Gemini API to generate a conversational weather summary.
+-  **Responsive UI**: The layout adapts for both mobile and web/desktop screens.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
 
-A few resources to get you started if this is your first Flutter project:
+- **Frontend**: Flutter, Dart
+- **Backend**: Python, Flask
+- **AI**: Google Gemini API
+- **Data**: Pandas, Haversine
+- **Visualization**: `fl_chart`
+  
+## Setup and Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Backend (Python)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Navigate to the `backend` folder.
+- Install the required packages: `pip install -r requirements.txt`
+- **IMPORTANT**: Open `app.py` and replace `"YOUR_API_KEY_HERE"` with your Google Gemini API key.
+- Run the server: `python app.py`
+
+### 2. Frontend (Flutter)
+
+- Navigate to the `frontend` folder.
+- Get the dependencies: `flutter pub get`
+- **IMPORTANT**: Configure your Google Maps API key for Android, iOS, and Web.
+- Open `lib/main.dart` and update the `yourPcIpAddress` constant to your computer's local IP address.
+- Run the app: `flutter run`
