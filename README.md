@@ -27,11 +27,5 @@ It provides historical climate analysis, trend visualization, and AI-powered sum
 | **Visualization** | `fl_chart` |
 
 ---
-
-## ⚙️ Setup and Installation
-
-### 🔹 1. Backend (Python)
-
-1. Navigate to the `backend` folder  
    ```bash
    cd backend
