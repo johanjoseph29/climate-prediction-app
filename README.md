@@ -27,5 +27,3 @@ It provides historical climate analysis, trend visualization, and AI-powered sum
 | **Visualization** | `fl_chart` |
 
 ---
-   ```bash
-   cd backend
